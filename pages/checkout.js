@@ -24,7 +24,7 @@ export default function Checkout() {
         <input required className="border p-2 rounded" type="email" placeholder="E-mail" />
         <input required className="border p-2 rounded" placeholder="Telefón" />
         <div className="font-bold">Suma k úhrade: {total} €</div>
-        <button className="bg-primary text-white px-4 py-2 rounded">Odoslať objednávku</button>
+        <button className="text-white px-4 py-2 rounded">Odoslať objednávku</button>
       </form>
     </main>
   );
