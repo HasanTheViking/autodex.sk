@@ -19,7 +19,7 @@ export default function Kontakt() {
         <input required className="border p-2 rounded" placeholder="Meno" />
         <input required className="border p-2 rounded" type="email" placeholder="E-mail" />
         <textarea required className="border p-2 rounded" placeholder="Vaša správa" />
-        <button className="bg-primary text-white px-4 py-2 rounded">Odoslať</button>
+        <button className="text-white px-4 py-2 rounded">Odoslať</button>
       </form>
       <div className="mt-8">
         <p><strong>E-mail:</strong> info@autodex.sk</p>
