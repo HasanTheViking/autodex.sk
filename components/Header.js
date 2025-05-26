@@ -4,7 +4,7 @@ import { useCart } from './CartContext';
 export default function Header() {
   const { cart } = useCart();
   return (
-    <header className="bg-dark text-light p-4 flex justify-between items-center shadow">
+    <header className="text-light p-4 flex justify-between items-center shadow">
       <Link href="/">
         <span className="text-2xl font-bold text-primary cursor-pointer">AutoDex</span>
       </Link>
