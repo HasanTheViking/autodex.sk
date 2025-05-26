@@ -18,7 +18,7 @@ export default function Home() {
 function Category({ name, link }) {
   return (
     <Link href={link}>
-      <div className="bg-white border p-8 rounded shadow hover:shadow-lg text-center cursor-pointer">
+      <div className="border p-8 rounded shadow hover:shadow-lg text-center cursor-pointer">
         <span className="text-xl font-bold text-primary">{name}</span>
       </div>
     </Link>
