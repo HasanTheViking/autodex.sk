@@ -27,7 +27,7 @@ export default function Kosik() {
       <div className="space-x-4">
         <button className="bg-gray-200 px-4 py-2 rounded" onClick={clearCart}>Vyprázdniť košík</button>
         <Link href="/checkout">
-          <button className="bg-primary text-white px-4 py-2 rounded">Pokračovať na platbu</button>
+          <button className="text-white px-4 py-2 rounded">Pokračovať na platbu</button>
         </Link>
       </div>
     </main>
