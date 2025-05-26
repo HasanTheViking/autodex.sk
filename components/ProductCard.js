@@ -9,7 +9,7 @@ export default function ProductCard({ product }) {
       <p className="text-gray-600 mb-2">{product.description}</p>
       <div className="flex justify-between items-center mt-auto">
         <span className="font-bold text-primary">{product.price} €</span>
-        <button className="bg-primary text-white px-4 py-2 rounded hover:bg-red-700" onClick={() => addToCart(product)}>
+        <button className="text-white px-4 py-2 rounded hover:bg-red-700" onClick={() => addToCart(product)}>
           Pridať do košíka
         </button>
       </div>
